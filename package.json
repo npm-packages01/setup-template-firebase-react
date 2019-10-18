@@ -1,0 +1,24 @@
+{
+  "name": "setup-template-firebase-react",
+  "version": "1.0.0",
+  "description": "react and firebase project template package",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx setup-template"
+  },
+  "keywords": [
+    "react",
+    "template",
+    "firebase"
+  ],
+  "author": "SoraKumo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-packages01/setup-template-firebase-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npm-packages01/setup-template-firebase-react/issues"
+  },
+  "homepage": "https://ttis.croud.jp"
+}
