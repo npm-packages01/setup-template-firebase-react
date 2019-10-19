@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "firebase emulators:start",
+    "deploy": "firebase deploy",
     "build": "npx webpack --mode production --config front/webpack.config.js",
     "watch": "npx webpack --mode development --config front/webpack.config.js -w"
   },

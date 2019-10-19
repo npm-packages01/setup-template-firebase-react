@@ -1,4 +1,4 @@
-# setup-template-react
+# setup-template-firebase-react
 
 パッケージにReact+TypeScript-ESLint+WebPackの開発環境を展開します  
 SCSSや画像などのリソースもデフォルトでバンドルするようになっています  
@@ -9,7 +9,7 @@ SCSSや画像などのリソースもデフォルトでバンドルするよう�
 事前に npm -y init などでpackage.jsonは作っておいてください
 
 ```sh
-npm -D i setup-template-react
+npm -D i setup-template-firebase-react
 ```
 
 インストールした時点で、追加コマンド無しでファイルが展開されます  
@@ -27,7 +27,7 @@ npm i
 
 ```txt
 root/  
-　├ dist/ (ファイル出力先)  
+　├ public/ (ファイル出力先)  
 　└ front/ (フロントエンド用ディレクトリ)  
 　　├ public/ (リソースHTMLファイル用)  
 　　│　└ index.html  
@@ -40,7 +40,7 @@ root/
 
 ## ３．実行&ビルド
 
-- ファイルを作成せずに実行確認  
+- Firebaseエミュレータの起動
 npm start
 - コンパイル結果をdistに出力  
 npm run build

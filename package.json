@@ -1,6 +1,6 @@
 {
   "name": "setup-template-firebase-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react and firebase project template package",
   "main": "index.js",
   "scripts": {
